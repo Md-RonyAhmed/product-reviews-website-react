@@ -10,7 +10,7 @@ const Display = () => {
             <button>Live Demo</button>
          </div>
          <div>
-            <img src="/img/macrainbow.jpg" alt=""/>
+            <img src="./img/macrainbow.jpg" alt=""/>
          </div>
       </>
    );
