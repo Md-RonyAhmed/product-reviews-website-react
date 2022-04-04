@@ -6,7 +6,7 @@ const Reviews = () => {
    const [users, setUsers] = useReviews();
    return (
      <div>
-       <h1 className="text-center text-4xl m-4">Customer Reviews:</h1>
+       <h1 className="text-center text-4xl m-4">Customer Reviews</h1>
        <div className="grid grid-cols-3 gap-4">
          {users.map((user) => (
            <User key={user.id} user={user}></User>
