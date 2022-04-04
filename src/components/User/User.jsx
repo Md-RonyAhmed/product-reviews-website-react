@@ -14,7 +14,7 @@ const User = (props) => {
              alt=""
            />
          </div>
-         <h4>Name:{name}</h4>
+         <h4>Name: {name}</h4>
          <p>Comment: {comment}</p>
          <p>
            <small>Rating: {rating}</small>

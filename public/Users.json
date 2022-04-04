@@ -1,13 +1,13 @@
 [
     {
-        "name": "mr. Json",
+        "name": "Md. Json",
         "pic": "./picture/p1.png",
         "comment": "The honesty of this online store is very good",
         "rating": "4.5/5",
         "id": 101
     },
     {
-        "name": "md. Korim Chowdhori",
+        "name": "Md. Korim Chowdhori",
         "pic": "./picture/p2.png",
         "comment": "They deliver the goods after 2-3 days. ",
         "rating": "4/5",
@@ -21,21 +21,21 @@
         "id": 103
     },
     {
-        "name": "bapparz",
+        "name": "Bapparaj",
         "pic": "./picture/p4.png",
-        "comment": "ভাই আমাকে একটা গার্লফ্রেন্ড দিতে পারবেন ? আমি যত টাকা লাগে দিবো ",
+        "comment": "The service you provide that is worst",
         "rating": "1.5/5",
         "id": 104
     },
     {
-        "name": "fb celebrity Sakib",
+        "name": "Sakib Al Hasan",
         "pic": "./picture/p5.png",
-        "comment": "nuakhali bivag chai.",
+        "comment": "They provide the best quality of service.",
         "rating": "4.5/5",
         "id": 105
     },
     {
-        "name": "mr. Rony",
+        "name": "Md. Rony",
         "pic": "./picture/p6.png",
         "comment": "WTF Men !It's been seven days today, why haven't I received my product yet?",
         "rating": "2/5",
