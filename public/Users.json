@@ -1,0 +1,44 @@
+[
+    {
+        "name": "mr. Json",
+        "pic": "./picture/p1.png",
+        "comment": "The honesty of this online store is very good",
+        "rating": "4.5/5",
+        "id": 101
+    },
+    {
+        "name": "md. Korim Chowdhori",
+        "pic": "./picture/p2.png",
+        "comment": "They deliver the goods after 2-3 days. ",
+        "rating": "4/5",
+        "id": 102
+    },
+    {
+        "name": "Salman Khan",
+        "pic": "./picture/p3.png",
+        "comment": "Your cosmetic products, very quality full",
+        "rating": "4.2/5",
+        "id": 103
+    },
+    {
+        "name": "bapparz",
+        "pic": "./picture/p9.png",
+        "comment": "ভাই আমাকে একটা গার্লফ্রেন্ড দিতে পারবেন ? আমি যত টাকা লাগে দিবো ",
+        "rating": "NaN",
+        "id": 104
+    },
+    {
+        "name": "fb celebrity Sakib",
+        "pic": "./picture/p8.png",
+        "comment": "nuakhali bivag chai.",
+        "rating": "4.5/5",
+        "id": 105
+    },
+    {
+        "name": "mr. Rony",
+        "pic": "./picture/p6.png",
+        "comment": "WTF Men !It's been seven days today, why haven't I received my product yet?",
+        "rating": "2/5",
+        "id": 106
+    }
+]

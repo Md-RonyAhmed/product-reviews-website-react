@@ -7,13 +7,13 @@ export const CustomLink = ({ children, to, ...props }) => {
   return (
     <div>
       <Link
-        style={{ textDecoration: match ? "underline" : "none" }}
+        style={{ background: match ? "black" : "",color:match?"orange":"" }}
         to={to}
         {...props}
       >
         {children}
       </Link>
-      {match && " (active)"}
+      {match && ""}
     </div>
   );
 };

@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { CustomLink } from "../CustomLink/CustomLink";
-
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
