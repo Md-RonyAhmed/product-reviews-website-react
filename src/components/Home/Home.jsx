@@ -1,5 +1,5 @@
 import React from 'react';
-import { useReviews } from '../../useReviews/useReviews';
+import { useReviews } from '../../hook/useReviews';
 import User from '../User/User';
 
 const Home = () => {
