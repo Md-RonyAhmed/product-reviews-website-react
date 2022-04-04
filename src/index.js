@@ -1,4 +1,5 @@
 import './index.css';
+import "flowbite";
 import React from 'react';
 import App from './App';
 import ReactDomClient from "react-dom/client";
