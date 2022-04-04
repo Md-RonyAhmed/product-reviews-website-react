@@ -1,10 +1,16 @@
 import React from 'react';
+import { useReviews } from '../../useReviews/useReviews';
+import User from '../User/User';
 
 const Home = () => {
+   const [users, setUsers] = useReviews();
+
    return (
-      <div>
-         <h1>This is Homepage</h1>
-      </div>
+     <div className="grid grid-cols-3 gap-4">
+       {users.slice(0, 3).map((user) => (
+         <User key={user.id} user={user}></User>
+       ))}
+     </div>
    );
 };
 
