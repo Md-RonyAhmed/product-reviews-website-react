@@ -6,7 +6,7 @@ import Header from '../Header/Header';
 const Dashboard = () => {
    const [data, setData] = useData();
    return (
-     <div className='bg-slate-200'>
+     <div className='bg-slate-100'>
        <Header></Header>
        <h1 className="text-3xl text-center m-4">Area Chart</h1>
        <div>
