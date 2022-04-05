@@ -4,7 +4,7 @@ const User = (props) => {
    const { name, pic, comment, rating } = props.user;
    return (
      <>
-       <div className="bg-green-200 p-4 m-4 w-80 h-[480px] rounded-xl">
+       <div className="bg-purple-300 p-4 m-4 w-80 h-[480px] rounded-xl hover:shadow-2xl">
          <div>
            <img
              className="rounded-xl mx-auto pb-5"
