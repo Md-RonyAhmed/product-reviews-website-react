@@ -1,11 +1,13 @@
 import React from 'react';
 import { Area, AreaChart, Bar, BarChart, CartesianGrid, Legend, Line, LineChart, Tooltip, XAxis, YAxis } from 'recharts';
 import { useData } from '../../hook/useData';
+import Header from '../Header/Header';
 
 const Dashboard = () => {
    const [data, setData] = useData();
    return (
      <div>
+       <Header></Header>
        <h1 className="text-3xl text-center m-4">Area Chart</h1>
        <div>
          <AreaChart

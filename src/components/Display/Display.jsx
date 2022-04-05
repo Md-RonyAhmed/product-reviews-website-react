@@ -12,13 +12,12 @@ const Display = () => {
            you that you can understand which is the best products that you can
            buy.
          </p>
-         <button className="h-8 w-32 bg-green-300 rounded mt-2">
+         <button className="h-8 w-32 bg-green-300 rounded mt-2 hover:bg-green-200">
            Live Demo
          </button>
        </div>
        <div>
-         <h1>Hello</h1>
-         <img className="h-48 w-48 object-cover" src={img} alt="" />
+         <img className="object-cover" src={img} alt="" />
        </div>
      </>
    );
