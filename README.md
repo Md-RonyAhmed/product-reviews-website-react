@@ -1,6 +1,8 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# This is a review site and you can find your best products 
+#### Site Features
+<ul>
+<li>We can see the products reviews here.</li>
+</ul>
 
 ## Available Scripts
 
