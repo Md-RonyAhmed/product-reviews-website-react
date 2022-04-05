@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { useReviews } from '../../hook/useReviews';
 import Display from '../Display/Display';
+import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
 import User from '../User/User';
 
@@ -27,7 +28,8 @@ const Home = () => {
            >
              Show All Reviews
            </Link>
-         </div>
+       </div>
+       <Footer/>
      </>
    );
 };

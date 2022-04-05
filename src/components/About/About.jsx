@@ -1,5 +1,6 @@
 import React from 'react';
 import Display from '../Display/Display';
+import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
 
 const About = () => {
@@ -10,6 +11,7 @@ const About = () => {
        <div className='m-4 grid grid-cols-2 gap-3 pb-7'>
          <Display></Display>
        </div>
+       <Footer/>
      </div>
    );
 };

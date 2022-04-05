@@ -1,6 +1,7 @@
 import React from 'react';
 import { Area, AreaChart, Bar, BarChart, CartesianGrid, Legend, Line, LineChart, Tooltip, XAxis, YAxis } from 'recharts';
 import { useData } from '../../hook/useData';
+import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
 
 const Dashboard = () => {
@@ -77,6 +78,7 @@ const Dashboard = () => {
            <Line type="monotone" dataKey="sell" stroke="#82ca9d" />
          </LineChart>
        </div>
+       <Footer/>
      </div>
    );
 };

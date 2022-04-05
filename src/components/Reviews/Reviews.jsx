@@ -1,5 +1,6 @@
 import React from 'react';
 import { useReviews } from '../../hook/useReviews';
+import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
 import User from '../User/User';
 
@@ -14,6 +15,7 @@ const Reviews = () => {
            <User key={user.id} user={user}></User>
          ))}
        </div>
+       <Footer/>
      </div>
    );
 };
