@@ -6,8 +6,8 @@ const Blogs = () => {
     <div>
       <Header></Header>
       <h1 className="text-5xl font-bold text-center my-4">Blogs</h1>
-      <div className="grid grid-cols-3 gap-3 p-4">
-        <div className="border-2 rounded-lg bg-slate-200 p-4 hover:shadow-xl">
+      <div className="grid grid-cols-3 gap-4 p-4">
+        <div className="rounded-lg bg-purple-300 p-4 hover:shadow-2xl">
           <h1 className="text-2xl mb-2">What is Context API?</h1>
           <p>
             The React Context API is a way for a React app to effectively
@@ -29,7 +29,7 @@ const Blogs = () => {
             state.
           </p>
         </div>
-        <div className="border-2 rounded-lg bg-slate-200 p-4 hover:shadow-xl">
+        <div className="rounded-lg bg-purple-300 p-4 hover:shadow-2xl">
           <h1 className="text-2xl mb-2">What is Semantic tags?</h1>
           <p>
             Semantic HTML elements are those that clearly describe their meaning
@@ -44,7 +44,7 @@ const Blogs = () => {
             section, article,nav,etc.
           </p>
         </div>
-        <div className="border-2 rounded-lg bg-slate-200 p-4 hover:shadow-xl">
+        <div className="rounded-lg bg-purple-300 p-4 hover:shadow-2xl">
           <h1 className="text-2xl mb-2">Inline vs Inline-Block vs Block</h1>
           <p>
             The display property specifics the display behavior of an element.
