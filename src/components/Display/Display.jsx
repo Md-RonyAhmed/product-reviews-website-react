@@ -1,4 +1,5 @@
 import React from 'react';
+import img from '../../img/macrainbow.jpg';
 const Display = () => {
    return (
      <>
@@ -17,7 +18,7 @@ const Display = () => {
        </div>
        <div>
          <h1>Hello</h1>
-         <img className="h-48 w-48 object-cover" src={""} alt="" />
+         <img className="h-48 w-48 object-cover" src={img} alt="" />
        </div>
      </>
    );
