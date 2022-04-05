@@ -11,7 +11,7 @@ const Home = () => {
    return (
      <>
        <Header></Header>
-         <div className="grid grid-cols-2 gap-3 m-4 bg-slate-200 p-4">
+         <div className="grid grid-cols-2 gap-3 mb-4 bg-slate-200 p-4">
            {<Display></Display>}
          </div>
          <h1 className="text-center text-4xl m-4">Customer Reviews(3)</h1>
