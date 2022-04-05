@@ -16,7 +16,7 @@
 <li>At first download the zip or clone the repo.</li>
 <li>Open terminal and type `cd app-name`.</li>
 <li>Then type `npm install or npm i`.</li>
-<li>Then type `{npm run}`.</li>
+<li>Then type `npm run` it will run the local server.</li>
 </ol>
 
 
